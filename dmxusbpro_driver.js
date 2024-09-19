@@ -14,7 +14,7 @@ function DMX(device_id, current_universe) {
 	this.universe = current_universe;
 
 	this.dev = new SerialPort({
-		'path' : device_id
+		'path' : device_id,
 		'baudRate': 250000,
 		'databits': 8,
 		'stopbits': 2,
