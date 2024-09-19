@@ -1,6 +1,6 @@
 "use strict"
 
-var SerialPort = require("serialport")
+var { SerialPort } = require("serialport")
 
 var	ENTTEC_PRO_DMX_STARTCODE = 0x00,
 	ENTTEC_PRO_START_OF_MSG  = 0x7e,
